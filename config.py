@@ -1,5 +1,5 @@
-login = ''
-password = ''
+LOGIN = ''
+PASSWORD = ''
 
-adress_from = ''
-adress_to = ''
+EMAIL_FROM = ''
+EMAIL_TO = ''

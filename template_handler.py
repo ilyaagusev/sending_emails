@@ -1,4 +1,4 @@
-template_text = (
+email_text = (
     "Привет, %friend_name%! %my_name% приглашает тебя на сайт %website%! \n\n"
     "%website% — это новая версия онлайн-курса по программированию. \n"
     "Изучаем Python и не только. Решаем задачи. "
@@ -17,8 +17,8 @@ template_text = (
     "уведомление о релизе сразу на имейл."
 )
 
-template_text = template_text.replace('%website%', 'dvmn.org')
-template_text = template_text.replace('%friend_name%', 'Вася')
-template_text = template_text.replace('%my_name%', 'Илья')
+email_text = email_text.replace('%website%', 'dvmn.org')
+email_text = email_text.replace('%friend_name%', 'Вася')
+email_text = email_text.replace('%my_name%', 'Илья')
 
-template_subject = 'Приглашение'
+email_subject = 'Приглашение'
